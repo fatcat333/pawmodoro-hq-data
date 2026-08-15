@@ -1,0 +1,108 @@
+{
+  "generatedAt": "2026-08-15T08:11:00Z",
+  "crews": [
+    {
+      "id": "room-scale",
+      "name": "Room scale crew",
+      "task": "8x6 iso grid, smaller furniture + cat, cat-bed, tuck-in layers, mirror chrome cleanup",
+      "state": "working",
+      "detail": "Rewriting floor scale and layering; mirror refresh follows",
+      "isActive": true,
+      "agents": [
+        { "name": "Lead", "role": "scale rebalance + mirror", "state": "working" }
+      ]
+    },
+    {
+      "id": "breed",
+      "name": "Breed personalities crew",
+      "task": "Per-breed idle/walk/sleep styles, signature actions, rare easter-egg events, Duchess Persian",
+      "state": "working",
+      "detail": "Art generation underway; integrates after room scale lands",
+      "isActive": true,
+      "agents": [
+        { "name": "Lead", "role": "frames + BreedProfile code", "state": "working" }
+      ]
+    },
+    {
+      "id": "android",
+      "name": "Android lead",
+      "task": "Full Android port (Kotlin/Compose), APK to debug-latest release on every push",
+      "state": "working",
+      "detail": "P0: repo + CI pipeline; installable APK first, then full port",
+      "isActive": true,
+      "agents": [
+        { "name": "Lead", "role": "repo + CI + port", "state": "working" }
+      ]
+    },
+    {
+      "id": "room-v2",
+      "name": "Room v2 crew",
+      "task": "Chibi isometric room with drag-to-place furniture",
+      "state": "done",
+      "detail": "Shipped - commits d11ce85, 1b8456a, 9db18ee; CI green",
+      "isActive": false,
+      "agents": [
+        { "name": "Lead", "role": "recovery + ship", "state": "closed" },
+        { "name": "Chibi art 1", "role": "shell + lip renders", "state": "closed" },
+        { "name": "Chibi art 2", "role": "furniture renders", "state": "closed" },
+        { "name": "Chibi art 3", "role": "posters + compat", "state": "closed" }
+      ]
+    },
+    {
+      "id": "mirror",
+      "name": "Web mirror crew",
+      "task": "Phone-viewable 1:1 web mirror, now iso-room synced",
+      "state": "done",
+      "detail": "62c7642 + 67e29b9 green; ?edit=1 and ?mood= deep links",
+      "isActive": false,
+      "agents": [
+        { "name": "Lead", "role": "generator v4 + publish", "state": "closed" },
+        { "name": "Builder", "role": "artifact publish", "state": "closed" }
+      ]
+    },
+    {
+      "id": "settings",
+      "name": "Settings & debug crew",
+      "task": "8 real preferences + dev debug menu",
+      "state": "done",
+      "detail": "1ae17d1 + d1dc849 green",
+      "isActive": false,
+      "agents": [
+        { "name": "Lead", "role": "prefs + wiring", "state": "closed" }
+      ]
+    },
+    {
+      "id": "debug",
+      "name": "Debug menu squad",
+      "task": "Fish grants, resets, own-all-cats",
+      "state": "done",
+      "detail": "3f1d349 green",
+      "isActive": false,
+      "agents": [
+        { "name": "Lead", "role": "debug actions", "state": "closed" }
+      ]
+    },
+    {
+      "id": "vanguards",
+      "name": "Animation vanguard",
+      "task": "164-frame transparent cat packs (5 cats)",
+      "state": "done",
+      "detail": "fe0ce26 green",
+      "isActive": false,
+      "agents": [
+        { "name": "Lead", "role": "integration", "state": "closed" },
+        { "name": "Generator", "role": "frames", "state": "closed" }
+      ]
+    }
+  ],
+  "events": [
+    { "t": "2026-08-14T20:30:00Z", "text": "animation v4: 164 frames shipped for 5 cats" },
+    { "t": "2026-08-14T21:40:00Z", "text": "settings tab + debug menu + 8 real preferences live" },
+    { "t": "2026-08-14T22:36:00Z", "text": "web mirror v1 shipped and shared" },
+    { "t": "2026-08-14T23:30:00Z", "text": "STYLE PIVOT: room goes anime chibi (Son signed Option D)" },
+    { "t": "2026-08-15T06:33:00Z", "text": "room v2 shipped: chibi iso room + drag-to-place, CI green" },
+    { "t": "2026-08-15T07:33:00Z", "text": "mirror v2: iso room sync + drag-to-place + deep links" },
+    { "t": "2026-08-15T07:54:00Z", "text": "breed personality spec delivered + approved by Milo" },
+    { "t": "2026-08-15T08:08:00Z", "text": "Android initiative launched: new repo, Kotlin/Compose, APK pipeline" }
+  ]
+}
