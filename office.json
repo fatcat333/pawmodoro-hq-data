@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:11:00Z",
+  "generatedAt": "2026-08-15T08:15:30Z",
   "crews": [
     {
       "id": "room-scale",
@@ -9,7 +9,11 @@
       "detail": "Rewriting floor scale and layering; mirror refresh follows",
       "isActive": true,
       "agents": [
-        { "name": "Lead", "role": "scale rebalance + mirror", "state": "working" }
+        {
+          "name": "Lead",
+          "role": "scale rebalance + mirror",
+          "state": "working"
+        }
       ]
     },
     {
@@ -20,7 +24,11 @@
       "detail": "Art generation underway; integrates after room scale lands",
       "isActive": true,
       "agents": [
-        { "name": "Lead", "role": "frames + BreedProfile code", "state": "working" }
+        {
+          "name": "Lead",
+          "role": "frames + BreedProfile code",
+          "state": "working"
+        }
       ]
     },
     {
@@ -31,7 +39,16 @@
       "detail": "P0: repo + CI pipeline; installable APK first, then full port",
       "isActive": true,
       "agents": [
-        { "name": "Lead", "role": "repo + CI + port", "state": "working" }
+        {
+          "name": "Lead",
+          "role": "architecture + CI pipeline",
+          "state": "working"
+        },
+        {
+          "name": "Engineer",
+          "role": "screens port + reviewer",
+          "state": "working"
+        }
       ]
     },
     {
@@ -42,10 +59,26 @@
       "detail": "Shipped - commits d11ce85, 1b8456a, 9db18ee; CI green",
       "isActive": false,
       "agents": [
-        { "name": "Lead", "role": "recovery + ship", "state": "closed" },
-        { "name": "Chibi art 1", "role": "shell + lip renders", "state": "closed" },
-        { "name": "Chibi art 2", "role": "furniture renders", "state": "closed" },
-        { "name": "Chibi art 3", "role": "posters + compat", "state": "closed" }
+        {
+          "name": "Lead",
+          "role": "recovery + ship",
+          "state": "closed"
+        },
+        {
+          "name": "Chibi art 1",
+          "role": "shell + lip renders",
+          "state": "closed"
+        },
+        {
+          "name": "Chibi art 2",
+          "role": "furniture renders",
+          "state": "closed"
+        },
+        {
+          "name": "Chibi art 3",
+          "role": "posters + compat",
+          "state": "closed"
+        }
       ]
     },
     {
@@ -56,8 +89,16 @@
       "detail": "62c7642 + 67e29b9 green; ?edit=1 and ?mood= deep links",
       "isActive": false,
       "agents": [
-        { "name": "Lead", "role": "generator v4 + publish", "state": "closed" },
-        { "name": "Builder", "role": "artifact publish", "state": "closed" }
+        {
+          "name": "Lead",
+          "role": "generator v4 + publish",
+          "state": "closed"
+        },
+        {
+          "name": "Builder",
+          "role": "artifact publish",
+          "state": "closed"
+        }
       ]
     },
     {
@@ -68,7 +109,11 @@
       "detail": "1ae17d1 + d1dc849 green",
       "isActive": false,
       "agents": [
-        { "name": "Lead", "role": "prefs + wiring", "state": "closed" }
+        {
+          "name": "Lead",
+          "role": "prefs + wiring",
+          "state": "closed"
+        }
       ]
     },
     {
@@ -79,7 +124,11 @@
       "detail": "3f1d349 green",
       "isActive": false,
       "agents": [
-        { "name": "Lead", "role": "debug actions", "state": "closed" }
+        {
+          "name": "Lead",
+          "role": "debug actions",
+          "state": "closed"
+        }
       ]
     },
     {
@@ -90,19 +139,51 @@
       "detail": "fe0ce26 green",
       "isActive": false,
       "agents": [
-        { "name": "Lead", "role": "integration", "state": "closed" },
-        { "name": "Generator", "role": "frames", "state": "closed" }
+        {
+          "name": "Lead",
+          "role": "integration",
+          "state": "closed"
+        },
+        {
+          "name": "Generator",
+          "role": "frames",
+          "state": "closed"
+        }
       ]
     }
   ],
   "events": [
-    { "t": "2026-08-14T20:30:00Z", "text": "animation v4: 164 frames shipped for 5 cats" },
-    { "t": "2026-08-14T21:40:00Z", "text": "settings tab + debug menu + 8 real preferences live" },
-    { "t": "2026-08-14T22:36:00Z", "text": "web mirror v1 shipped and shared" },
-    { "t": "2026-08-14T23:30:00Z", "text": "STYLE PIVOT: room goes anime chibi (Son signed Option D)" },
-    { "t": "2026-08-15T06:33:00Z", "text": "room v2 shipped: chibi iso room + drag-to-place, CI green" },
-    { "t": "2026-08-15T07:33:00Z", "text": "mirror v2: iso room sync + drag-to-place + deep links" },
-    { "t": "2026-08-15T07:54:00Z", "text": "breed personality spec delivered + approved by Milo" },
-    { "t": "2026-08-15T08:08:00Z", "text": "Android initiative launched: new repo, Kotlin/Compose, APK pipeline" }
+    {
+      "t": "2026-08-14T20:30:00Z",
+      "text": "animation v4: 164 frames shipped for 5 cats"
+    },
+    {
+      "t": "2026-08-14T21:40:00Z",
+      "text": "settings tab + debug menu + 8 real preferences live"
+    },
+    {
+      "t": "2026-08-14T22:36:00Z",
+      "text": "web mirror v1 shipped and shared"
+    },
+    {
+      "t": "2026-08-14T23:30:00Z",
+      "text": "STYLE PIVOT: room goes anime chibi (Son signed Option D)"
+    },
+    {
+      "t": "2026-08-15T06:33:00Z",
+      "text": "room v2 shipped: chibi iso room + drag-to-place, CI green"
+    },
+    {
+      "t": "2026-08-15T07:33:00Z",
+      "text": "mirror v2: iso room sync + drag-to-place + deep links"
+    },
+    {
+      "t": "2026-08-15T07:54:00Z",
+      "text": "breed personality spec delivered + approved by Milo"
+    },
+    {
+      "t": "2026-08-15T08:08:00Z",
+      "text": "Android initiative launched: new repo, Kotlin/Compose, APK pipeline"
+    }
   ]
 }
