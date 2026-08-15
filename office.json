@@ -1,6 +1,41 @@
 {
-  "generatedAt": "2026-08-15T12:56:00Z",
+  "generatedAt": "2026-08-15T15:53:00Z",
   "crews": [
+    {
+      "id": "qa",
+      "name": "QA lane",
+      "task": "Bug board, regression sweeps, cross-platform verification",
+      "state": "working",
+      "detail": "Verifying B-2026-003/005; seeded BUGS.md B-001..005",
+      "isActive": true,
+      "agents": [
+        {
+          "name": "QA Lead",
+          "role": "triage + gates",
+          "state": "working"
+        },
+        {
+          "name": "Tester",
+          "role": "repro + evidence",
+          "state": "working"
+        }
+      ]
+    },
+    {
+      "id": "render-fix",
+      "name": "Render fix crew",
+      "task": "Mirror room projection misalignment (wooden bars, piano clipping)",
+      "state": "working",
+      "detail": "Root-causing iso.js vs painted shell; visual screenshot acceptance",
+      "isActive": true,
+      "agents": [
+        {
+          "name": "Lead",
+          "role": "projection + anchors",
+          "state": "working"
+        }
+      ]
+    },
     {
       "id": "room-scale",
       "name": "Room scale crew",
@@ -196,6 +231,10 @@
     {
       "t": "2026-08-15T12:55:00Z",
       "text": "Android: debug APK live on debug-latest release; PR review culture caught real bugs (3x sprite density)"
+    },
+    {
+      "t": "2026-08-15T15:37:00Z",
+      "text": "B-003/005 shipped + mirror republished (9f62556); Son's screenshot reopened visual misalignment \u2014 render fix crew dispatched"
     }
   ]
 }
