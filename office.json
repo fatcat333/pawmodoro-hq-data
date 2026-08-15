@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:40:00Z",
+  "generatedAt": "2026-08-15T12:56:00Z",
   "crews": [
     {
       "id": "room-scale",
@@ -36,7 +36,7 @@
       "name": "Android lead",
       "task": "Full Android port (Kotlin/Compose), APK to debug-latest release on every push",
       "state": "working",
-      "detail": "P0: repo + CI pipeline; installable APK first, then full port",
+      "detail": "P0 landed - repo + CI + PR review culture live; debug-latest APK published every merge; porting underway",
       "isActive": true,
       "agents": [
         {
@@ -192,6 +192,10 @@
     {
       "t": "2026-08-15T08:40:00Z",
       "text": "breed personalities shipped: per-cat movement, signature actions, rare moments, Duchess joins the shop"
+    },
+    {
+      "t": "2026-08-15T12:55:00Z",
+      "text": "Android: debug APK live on debug-latest release; PR review culture caught real bugs (3x sprite density)"
     }
   ]
 }
