@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-15T08:15:30Z",
+  "generatedAt": "2026-08-15T08:21:00Z",
   "crews": [
     {
       "id": "room-scale",
       "name": "Room scale crew",
       "task": "8x6 iso grid, smaller furniture + cat, cat-bed, tuck-in layers, mirror chrome cleanup",
-      "state": "working",
-      "detail": "Rewriting floor scale and layering; mirror refresh follows",
-      "isActive": true,
+      "state": "done",
+      "detail": "Shipped - 8x6 grid, tuck-in folds, catbed; d144038+7c5ddc2+4744825 all green",
+      "isActive": false,
       "agents": [
         {
           "name": "Lead",
           "role": "scale rebalance + mirror",
-          "state": "working"
+          "state": "closed"
         }
       ]
     },
@@ -184,6 +184,10 @@
     {
       "t": "2026-08-15T08:08:00Z",
       "text": "Android initiative launched: new repo, Kotlin/Compose, APK pipeline"
+    },
+    {
+      "t": "2026-08-15T08:21:00Z",
+      "text": "room scale rebalance shipped: 8x6 grid, smaller cats+furniture, tuck-in duvet folds, iso catbed"
     }
   ]
 }
