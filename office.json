@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:21:00Z",
+  "generatedAt": "2026-08-15T08:40:00Z",
   "crews": [
     {
       "id": "room-scale",
@@ -20,9 +20,9 @@
       "id": "breed",
       "name": "Breed personalities crew",
       "task": "Per-breed idle/walk/sleep styles, signature actions, rare easter-egg events, Duchess Persian",
-      "state": "working",
-      "detail": "Art generation underway; integrates after room scale lands",
-      "isActive": true,
+      "state": "done",
+      "detail": "Shipped - 44 frames, BreedProfile director, signatures + rare events, Duchess pack; CI green",
+      "isActive": false,
       "agents": [
         {
           "name": "Lead",
@@ -188,6 +188,10 @@
     {
       "t": "2026-08-15T08:21:00Z",
       "text": "room scale rebalance shipped: 8x6 grid, smaller cats+furniture, tuck-in duvet folds, iso catbed"
+    },
+    {
+      "t": "2026-08-15T08:40:00Z",
+      "text": "breed personalities shipped: per-cat movement, signature actions, rare moments, Duchess joins the shop"
     }
   ]
 }
